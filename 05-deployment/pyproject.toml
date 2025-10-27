@@ -1,0 +1,13 @@
+[project]
+name = "mlzoomcamp_hw5"
+version = "0.1.0"
+requires-python = ">=3.10"
+
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "scikit-learn==1.6.1",
+  "requests"
+]
+
+[tool.uv]
